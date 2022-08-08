@@ -1,0 +1,317 @@
+body{
+background-color: rgba(100,100,100,.7);
+}
+
+.live{
+	width: 50px;
+	height: 50px;
+	border-radius: 5px;
+	position: fixed;
+	right:5px;
+	bottom: 50px;
+	background-image: url(http://localhost/SMA/public/storage/img/live.jfif);
+	background-size: cover;
+}
+.livechat{
+	display: none;
+	width: 350px;
+	height: 400px;
+	border: 1px solid green;
+	border-radius: 5px;
+	position: fixed;
+	right: 5px;
+	bottom: 110px;
+	background-color:black;
+	overflow: scroll;
+}
+body .muncul{
+	display: block;
+}
+.pertanyaan{
+	position: fixed;
+	height: 50px;
+	bottom:110px;
+	margin-left: 10px;
+}
+.livechat .listpertanyaan{
+	width: 100%;
+	text-align: left;
+	color: white;
+	height: 140px;
+	border: 2px solid white;
+	overflow: scroll;
+}
+.livechat .content{
+	width: 100%;
+	text-align: center;
+	color: white;
+	height: 175px;
+	border: 2px solid white;
+	overflow: scroll;
+}
+.all_new_users{
+	background-color: white;
+	border: 2px solid blue;
+}
+.copy{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	height: 45px;
+	line-height: 45px;
+	background-color:rgba(255,255,255,.6);
+	color: black;
+}
+
+.copy .text{
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+	border: 2px solid silver;
+	border-radius: 2px;
+}
+
+.sosial_media{
+	font-size: 10px;
+	width: 350px;
+	height: 50px;
+	border: 1px solid white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	overflow: hidden;
+	background-color: white;
+	border-radius: 5px;
+}
+
+
+.welcome{
+	color: white;
+}
+
+.dropdown-item:hover{
+  background-color:black;
+  color: white;
+}
+
+
+.waktu{
+	position: absolute;
+	z-index: 5;
+	background-color: black;
+	width: 200px;
+	height: 50px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,.7);
+	color: white;
+	border: 1px solid skyblue;
+	font-size: 11px;
+	margin-top: -7px;
+	margin-left: 10px;
+	text-align: center;
+}
+
+
+.form_login{
+	box-shadow: -10px 5px 5px 40px rgba(255,255,250,.7);
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 200px;
+	height: 200px;
+	border: 2px solid skyblue;
+background-color: black;
+align-items: center;
+	border-radius: 5px;
+	position: relative;
+	font-size: 11px;
+	color: white;
+}
+
+.form_login input{
+	width: 180px;
+	height: 30px;
+	border-radius: 5px;
+}
+
+.form_login button{
+	width: 60px;
+	margin-top: 10px;
+	background-color: rgba(255,255,255,1);
+	color: black;
+	border-radius: 20px;
+	cursor: pointer;
+	margin-bottom: 5px;
+}
+.form_login button:hover{
+		background-color: rgba(255,255,255,.7);
+		color: white;
+	}
+
+table{
+	width: 100vw;
+	text-align: center;
+}
+@media screen and (min-width: 400px)
+{
+
+.form_login{
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 300px;
+	height: 300px;
+	border: 2px solid skyblue;
+	background-color: black;
+	border-radius: 5px;
+	position: relative;
+	font-size: 20px;
+	color: white;
+}
+
+.form_login input{
+	width: 250px;
+	height: 60px;
+	border-radius: 5px;
+}
+
+.form_login button{
+	width: 100px;
+	margin-top: 10px;
+	background-color: rgba(255,255,255,1);
+	color: black;
+	border-radius: 20px;
+	margin-bottom: 5px;
+	
+	}
+	.form_login button:hover{
+		background-color: rgba(255,255,255,.7);
+		color: white;
+	}
+}
+
+@media screen and (max-width: 600px)
+{
+
+	.waktu{
+		width: 150px;
+		font-size: 10px;
+	}
+
+}
+
+
+@media screen and (min-width: 601px)
+{
+	html{
+		overflow-x: hidden;
+	}
+
+	table{
+		font-size: 9px;
+	}
+	
+}
+
+@media screen and (min-width: 800px)
+{
+	html{
+		overflow-x: hidden;
+	}
+
+	table{
+		font-size: 11px;
+	}
+
+}
+@media screen and (min-width: 900px)
+{
+	html{
+		overflow-x: hidden;
+	}
+
+	table{
+		font-size: 12px;
+	}
+}
+@media screen and (min-width: 1000px)
+{
+	html{
+		overflow-x: hidden;
+	}
+
+	table{
+		font-size: 13px;
+	}
+}
+@media screen and (min-width: 1100px)
+{
+	html{
+		overflow-x: hidden;
+	}
+
+	table{
+		font-size: 14px;
+	}
+}
+
+@media screen and (min-width: 1200px)
+{
+	html{
+		overflow-x: hidden;
+	}
+
+	table{
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 600px)
+{
+	table{
+		font-size: 8px;
+		overflow-x: scroll;
+	}
+}
+
+
+@media screen and (max-width: 265px)
+{
+	.waktu{
+	position: absolute;
+	z-index: 5;
+	width: 200px;
+	height: 50px;
+	font-size: 11px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.welcome{
+	width: 100vw;
+	margin-top:25px;
+	font-size: 7px;
+}
+}
+
+@media print{
+	.waktu,.uy,.welcome{
+		display: none;
+	}
+	.welcome{
+		display: none;
+	}
+	.hilang{
+		display: none;
+	}
+    .copyright{
+    	display: none;
+    }
+
+    .terlarang{
+    	display: none;
+    }
+
+}
+
